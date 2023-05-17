@@ -1,0 +1,12 @@
+[package]
+name = "rustsec"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "db2rustsecp"
+crate-type = ["cdylib"]      # Creates dynamic lib
+
+[dependencies]
+libc = "0.2"
+bitflags = "1.3"
